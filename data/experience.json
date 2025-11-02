@@ -1,0 +1,46 @@
+[
+    {
+        "date": "Feb 2021 - Present",
+        "role": "Android Developer",
+        "company": "Freelance - Remote, Singapore",
+        "responsibilities": [
+            "Developed Android applications with focus on performance, scalability, and adaptability",
+            "Troubleshot and resolved bugs, improving stability and increasing crash-free rate from 95% to 98%",
+            "Ensured robustness through unit testing, achieving approximately 65% test coverage",
+            "Collaborated with cross-functional teams, delivering impactful features through bi-weekly releases",
+            "Designed and implemented major long-term features ensuring stability and scalability"
+        ]
+    },
+    {
+        "date": "Oct 2024 - Apr 2025",
+        "role": "DevOps Engineer",
+        "company": "Digital Egypt Pioneers Initiative (DEPI) - Egypt",
+        "responsibilities": [
+            "Career track course for DevOps Engineering at DEPI",
+            "Collaboration with YAT for technical skills and Harvest for soft skills"
+        ]
+    },
+    {
+        "date": "Aug 2023 - Oct 2023",
+        "role": "Data Scientist",
+        "company": "Vodafone - Hybrid, Egypt",
+        "responsibilities": [
+            "Conducted time series forecasting and analysis for master's graduation project",
+            "Worked with real datasets, performing data cleaning and preprocessing",
+            "Applied statistical models and ML algorithms to analyze historical data and predict trends",
+            "Developed and deployed a time series forecasting pipeline",
+            "Presented statistical analysis and findings using visualizations"
+        ]
+    },
+    {
+        "date": "Nov 2022 - Oct 2023",
+        "role": "Data Scientist",
+        "company": "Digital Egypt Builders Initiative (DEBI) - Egypt",
+        "responsibilities": [
+            "Developed rigorous understanding of fundamental concepts in Data Science and ML",
+            "Designed and executed processes for modeling complex systems and collecting data",
+            "Designed, evaluated, and refined data-driven solutions and infrastructure",
+            "Developed understanding of ethical, security, and privacy implications of data solutions"
+        ]
+    }
+]

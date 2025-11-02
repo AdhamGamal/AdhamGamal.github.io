@@ -1,0 +1,47 @@
+{
+    "contactItems": [
+        {
+            "title": "Email",
+            "content": "adhammohamadgamal@gmail.com",
+            "icon": "fas fa-envelope"
+        },
+        {
+            "title": "Phone",
+            "content": "(+20) 12 0108 9292",
+            "icon": "fas fa-phone"
+        },
+        {
+            "title": "Location",
+            "content": "Qalyubia, Egypt",
+            "icon": "fas fa-map-marker-alt"
+        },
+        {
+            "title": "Social Media",
+            "icon": "fas fa-share-alt",
+            "socialLinks": [
+                {
+                    "url": "https://linkedin.com/in/adhammohamadgamal",
+                    "icon": "fab fa-linkedin-in"
+                },
+                {
+                    "url": "https://github.com/AdhamGamal",
+                    "icon": "fab fa-github"
+                },
+                {
+                    "url": "https://stackoverflow.com/users/5464294",
+                    "icon": "fab fa-stack-overflow"
+                },
+                {
+                    "url": "https://kaggle.com/adhamgamal22",
+                    "icon": "fab fa-kaggle"
+                }
+            ]
+        }
+    ],
+    "message": {
+        "title": "Let's Work Together",
+        "description": "Feel free to reach out via email or connect with me on social media. I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.",
+        "email": "adhammohamadgamal@gmail.com",
+        "buttonText": "Send Email"
+    }
+}

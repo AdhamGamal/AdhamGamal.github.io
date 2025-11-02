@@ -1,0 +1,126 @@
+@media (max-width: 992px) {
+    .about-content, .contact-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .timeline::before {
+        left: 30px;
+    }
+    
+    .timeline-item {
+        width: 100%;
+        left: 0 !important;
+        padding-left: 80px;
+        padding-right: 0;
+    }
+    
+    .timeline-content::before {
+        left: -10px !important;
+    }
+    
+    .skills-list {
+        grid-template-columns: 1fr;
+    }
+    
+    /* FIX: Only stack stats on very small screens */
+    .stats {
+        flex-direction: row; /* Keep horizontal by default */
+        gap: 20px;
+        flex-wrap: wrap; /* Allow wrapping if needed */
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: var(--card-bg);
+        flex-direction: column;
+        padding: 20px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        border: 1px solid var(--border-color);
+    }
+    
+    .nav-links.active {
+        display: flex;
+    }
+    
+    .nav-links li {
+        margin: 10px 0;
+    }
+    
+    .hamburger {
+        display: block;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .section-title h2 {
+        font-size: 2.2rem;
+    }
+    
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .skills-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .certifications-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .nav-controls {
+        gap: 10px;
+    }
+    
+    .skill-tag {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .hero-content p {
+        font-size: 1.1rem;
+    }
+    
+    .section-title h2 {
+        font-size: 1.8rem;
+    }
+    
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    /* FIX: Only stack stats on very small mobile screens */
+    .stats {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .stat h3 {
+        font-size: 2rem;
+    }
+    
+    .skill-list {
+        gap: 8px;
+    }
+    
+    .skill-tag {
+        padding: 5px 10px;
+        font-size: 0.75rem;
+    }
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Android Development",
+        "icon": "fas fa-mobile-alt",
+        "skills": ["Kotlin", "Java", "Jetpack Compose", "Room Database", "Retrofit", "RxJava", "Coroutines", "JUnit", "Firebase", "Android Auto"]
+    },
+    {
+        "name": "AI & Data Science",
+        "icon": "fas fa-brain",
+        "skills": ["Python", "Pandas", "NumPy", "Scikit-learn", "TensorFlow", "PyTorch", "Time Series Analysis", "Machine Learning", "Ensemble Learning"]
+    },
+    {
+        "name": "DevOps & Cloud",
+        "icon": "fas fa-cloud",
+        "skills": ["Docker", "Kubernetes", "Ansible", "Terraform", "Jenkins", "GitHub Actions", "AWS", "Azure", "GCP", "Linux"]
+    },
+    {
+        "name": "Databases & Tools",
+        "icon": "fas fa-database",
+        "skills": ["SQLite", "PostgreSQL", "MongoDB", "Firestore", "Git", "Jira", "Slack", "RESTful APIs", "JSON/XML"]
+    }
+]

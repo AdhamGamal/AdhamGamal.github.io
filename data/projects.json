@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Radio App",
+        "description": "Android app for radio live streaming and podcasts with modern UI and multiple platform support.",
+        "icon": "fas fa-podcast",
+        "technologies": ["Kotlin", "Jetpack Compose", "Firebase", "Android Auto"],
+        "links": [
+            {
+                "text": "Code",
+                "url": "#",
+                "icon": "fab fa-github",
+                "external": true
+            },
+            {
+                "text": "Live Demo",
+                "url": "#",
+                "icon": "fas fa-external-link-alt",
+                "external": true
+            }
+        ]
+    },
+    {
+        "name": "Traffic Forecasting",
+        "description": "Ensemble learning approach for mobile network traffic forecasting with high prediction accuracy.",
+        "icon": "fas fa-chart-line",
+        "technologies": ["Python", "ML", "Time Series", "Ensemble"],
+        "links": [
+            {
+                "text": "Code",
+                "url": "#",
+                "icon": "fab fa-github",
+                "external": true
+            }
+        ]
+    },
+    {
+        "name": "Elegance App",
+        "description": "Full-stack E-Commerce app with DevOps best practices and CI/CD pipeline implementation.",
+        "icon": "fas fa-shopping-cart",
+        "technologies": ["DevOps", "Docker", "AWS", "CI/CD"],
+        "links": [
+            {
+                "text": "Code",
+                "url": "#",
+                "icon": "fab fa-github",
+                "external": true
+            }
+        ]
+    },
+    {
+        "name": "Qiyas",
+        "description": "Android app for question-answering with timer, API integration, and score sharing features.",
+        "icon": "fas fa-question-circle",
+        "technologies": ["Android", "REST API", "Kotlin"],
+        "links": [
+            {
+                "text": "Code",
+                "url": "#",
+                "icon": "fab fa-github",
+                "external": true
+            }
+        ]
+    },
+    {
+        "name": "NBE Sheet",
+        "description": "Android app for customer data management with integrated statistics, charts, and Firebase storage.",
+        "icon": "fas fa-table",
+        "technologies": ["Android", "Firebase", "Data Management"],
+        "links": [
+            {
+                "text": "Code",
+                "url": "#",
+                "icon": "fab fa-github",
+                "external": true
+            }
+        ]
+    },
+    {
+        "name": "COVID-19 Prediction",
+        "description": "ML model to predict COVID-19 case outcomes based on key factors and medical data.",
+        "icon": "fas fa-virus",
+        "technologies": ["Python", "ML", "Healthcare"],
+        "links": [
+            {
+                "text": "Code",
+                "url": "#",
+                "icon": "fab fa-github",
+                "external": true
+            }
+        ]
+    }
+]

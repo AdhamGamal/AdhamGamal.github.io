@@ -1,0 +1,38 @@
+[
+    {
+        "name": "DevOps Engineer",
+        "issuer": "DEPI",
+        "date": "Mar 2025",
+        "icon": "fas fa-cogs"
+    },
+    {
+        "name": "Data Engineer in Python",
+        "issuer": "DataCamp",
+        "date": "Aug 2024",
+        "icon": "fas fa-database"
+    },
+    {
+        "name": "Associated Data Engineer in SQL",
+        "issuer": "DataCamp",
+        "date": "Jul 2024",
+        "icon": "fas fa-database"
+    },
+    {
+        "name": "AWS Cloud Practitioner",
+        "issuer": "AWS",
+        "date": "May 2023",
+        "icon": "fab fa-aws"
+    },
+    {
+        "name": "Data Scientist Associate",
+        "issuer": "Microsoft Azure",
+        "date": "Dec 2022",
+        "icon": "fab fa-microsoft"
+    },
+    {
+        "name": "HCIA AI V3",
+        "issuer": "Huawei",
+        "date": "Nov 2022",
+        "icon": "fas fa-robot"
+    }
+]

@@ -3,149 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adham Gamal - Portfolio</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Arial', sans-serif;
-            color: #333;
-        }
-        header {
-            background: linear-gradient(135deg, #4A90E2, #50C9C3);
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 3em;
-        }
-        header p {
-            margin: 10px 0;
-            font-size: 1.2em;
-        }
-        nav {
-            background: #333;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 1.2em;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        .container {
-            max-width: 1200px;
-            margin: auto;
-            padding: 20px;
-        }
-        .section {
-            margin-bottom: 40px;
-        }
-        .section h2 {
-            font-size: 2em;
-            margin-bottom: 15px;
-            border-bottom: 2px solid #4A90E2;
-            display: inline-block;
-        }
-        .info-list {
-            list-style: none;
-            padding: 0;
-        }
-        .info-list li {
-            margin: 10px 0;
-            font-size: 1.2em;
-        }
-        .skills {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-        .skills span {
-            background: #50C9C3;
-            color: white;
-            padding: 5px 10px;
-            border-radius: 5px;
-            font-size: 1em;
-        }
-        footer {
-            background: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        footer a {
-            color: #50C9C3;
-            text-decoration: none;
-        }
-    </style>
+    <title>Adham Gamal | AI Engineer & Android Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
+    <!-- Header & Navigation -->
     <header>
-        <h1>Adham Gamal</h1>
-        <p>AI & Data Science Enthusiast | Android Developer</p>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="images/profile-small.png" alt="AG" class="logo-image">
+                    Adham<span class="name-space"> </span><span>Gamal</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-controls">
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <div class="hamburger">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
-    <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <div class="container">
-        <section id="about" class="section">
-            <h2>About Me</h2>
-            <ul class="info-list">
-                <li><strong>Location:</strong> Benha, Qalyubia, Egypt</li>
-                <li><strong>Nationality:</strong> Egyptian</li>
-                <li><strong>Date of Birth:</strong> September 22, 1996</li>
-                <li><strong>Education:</strong> Master's in AI & Data Science from Queen's University (Excellent), Bachelor's in Computers & AI from Benha University (Very Good with Honors)</li>
-                <li><strong>Military Service:</strong> Completed</li>
-            </ul>
-        </section>
-        <section id="skills" class="section">
-            <h2>Skills</h2>
-            <div class="skills">
-                <span>Python</span>
-                <span>Java</span>
-                <span>Kotlin</span>
-                <span>Scikit-learn</span>
-                <span>TensorFlow</span>
-                <span>Keras</span>
-                <span>PyTorch</span>
-                <span>Pandas</span>
-                <span>NumPy</span>
-                <span>Matplotlib</span>
-                <span>Plotly</span>
-                <span>Seaborn</span>
-                <span>Hugging Face</span>
-                <span>Transformers</span>
-                <span>SQL</span>
-                <span>MongoDB</span>
-                <span>AWS</span>
-                <span>Azure</span>
-                <span>Hadoop</span>
-                <span>Git</span>
-                <span>GitHub</span>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-background">
+                    <div class="hero-shape hero-shape-1"></div>
+                    <div class="hero-shape hero-shape-2"></div>
+                    <div class="hero-shape hero-shape-3"></div>
+                </div>
+                <h1>Adham Gamal</h1>
+                <p class="hero-subtitle"><span class="highlight">AI Engineer</span> | <span class="highlight">MSc AI & Data Science</span> | <span class="highlight">DevOps</span> | <span class="highlight">Android Developer</span></p>
+                <p class="hero-description">Building scalable applications and intelligent solutions with 4+ years of experience</p>
+                <a href="#contact" class="btn hero-btn">Get In Touch</a>
             </div>
-        </section>
-        <section id="contact" class="section">
-            <h2>Contact</h2>
-            <ul class="info-list">
-                <li><strong>Email:</strong> <a href="mailto:adhammohamadgamal@gmail.com">adhammohamadgamal@gmail.com</a></li>
-                <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/adhammohamadgamal" target="_blank">linkedin.com/in/adhammohamadgamal</a></li>
-                <li><strong>GitHub:</strong> <a href="https://github.com/AdhamGamal" target="_blank">github.com/AdhamGamal</a></li>
-                <li><strong>Phone:</strong> (+20) 12 0108 9292</li>
-            </ul>
-        </section>
-    </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content" id="about-content">
+                <!-- Content loaded from JSON -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-title">
+                <h2>Experience</h2>
+            </div>
+            <div class="timeline" id="experience-timeline">
+                <!-- Content loaded from JSON -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <div class="section-title">
+                <h2>Education</h2>
+            </div>
+            <div class="education-content" id="education-content">
+                <!-- Content loaded from JSON -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>Skills & Expertise</h2>
+            </div>
+            <div class="skills-container" id="skills-container">
+                <!-- Content loaded from JSON -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>Projects</h2>
+            </div>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Content loaded from JSON -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <div class="container">
+            <div class="section-title">
+                <h2>Certifications</h2>
+            </div>
+            <div class="certifications-grid" id="certifications-grid">
+                <!-- Content loaded from JSON -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Me</h2>
+            </div>
+            <div class="contact-content" id="contact-content">
+                <!-- Content loaded from JSON -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Adham Gamal. Built with passion. Connect with me on <a href="https://linkedin.com/in/adhammohamadgamal" target="_blank">LinkedIn</a>.</p>
+        <div class="container">
+            <p>&copy; 2025 Adham Gamal. All Rights Reserved.</p>
+        </div>
     </footer>
+
+    <script src="js/data-loader.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
