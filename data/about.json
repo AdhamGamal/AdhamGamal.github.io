@@ -1,30 +1,30 @@
 {
     "title": "AI Engineer & Android Developer",
     "description": [
-        "A freelance Android developer with 4+ years of experience in building scalable and high-performance mobile applications. Holds a professional master's degree in AI and Data Science. Consistently delivers high-quality work on time, efficiently managing related tasks. Additionally, knowledgeable in DevOps processes.",
-        "My expertise spans across mobile development, data science, machine learning, and DevOps engineering, allowing me to build comprehensive solutions from concept to deployment."
+        "A freelance Android developer with 5+ years of experience in building scalable and high-performance mobile applications. Holds a professional master's degree in Artificial Intelligence and Data Science. Consistently delivers high-quality work on time, efficiently managing related tasks. Additionally, knowledgeable in DevOps processes.",
+        "My expertise spans across mobile development, artificial intelligence, data science, DevOps engineering and data engineering, allowing me to build comprehensive solutions from concept to deployment."
     ],
     "skills": [
+        {
+            "name": "Artificial Intelligence",
+            "icon": "fas fa-brain"
+        },
         {
             "name": "Android Development",
             "icon": "fas fa-mobile-alt"
         },
         {
-            "name": "AI & Machine Learning",
-            "icon": "fas fa-brain"
+            "name": "DevOps & Cloud",
+            "icon": "fas fa-cloud"
         },
         {
             "name": "Data Engineering",
             "icon": "fas fa-database"
-        },
-        {
-            "name": "DevOps & Cloud",
-            "icon": "fas fa-cloud"
         }
     ],
     "stats": [
         {
-            "value": "4+",
+            "value": "5+",
             "label": "Years Experience"
         },
         {

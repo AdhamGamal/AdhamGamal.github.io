@@ -112,6 +112,7 @@ function renderEducation(data) {
             <span class="education-date">${item.date}</span>
             <h3>${item.degree}</h3>
             <h4>${item.institution}</h4>
+            <p>${item.major}</p>
             <p>${item.description}</p>
             ${item.grade ? `<p><strong>Grade: ${item.grade}</strong></p>` : ''}
         </div>

@@ -1,47 +1,29 @@
 [
     {
-        "name": "Radio App",
-        "description": "Android app for radio live streaming and podcasts with modern UI and multiple platform support.",
+        "name": "SPH Radio App",
+        "description": "Live streaming and podcasts with modern UI and multiple platform support.",
         "icon": "fas fa-podcast",
-        "technologies": ["Kotlin", "Jetpack Compose", "Firebase", "Android Auto"],
+        "technologies": ["Android", "Kotlin", "Jetpack Compose", "Retrofit", "Firebase", "Room Database", "Unit Testing", "Android Auto"],
         "links": [
-            {
-                "text": "Code",
-                "url": "#",
-                "icon": "fab fa-github",
-                "external": true
-            },
-            {
-                "text": "Live Demo",
-                "url": "#",
-                "icon": "fas fa-external-link-alt",
-                "external": true
-            }
         ]
     },
     {
-        "name": "Traffic Forecasting",
+        "name": "Mobile Network Traffic Forecasting",
         "description": "Ensemble learning approach for mobile network traffic forecasting with high prediction accuracy.",
         "icon": "fas fa-chart-line",
-        "technologies": ["Python", "ML", "Time Series", "Ensemble"],
+        "technologies": ["Time Series Analysis & Forecasting", "Ensemble Learning", "Machine Learning", "Python"],
         "links": [
-            {
-                "text": "Code",
-                "url": "#",
-                "icon": "fab fa-github",
-                "external": true
-            }
         ]
     },
     {
         "name": "Elegance App",
-        "description": "Full-stack E-Commerce app with DevOps best practices and CI/CD pipeline implementation.",
+        "description": "Full-stack E-Commerce app with DevOps best practices and CI/CD pipeline implementation, to deploy it on cloud infrastructure.",
         "icon": "fas fa-shopping-cart",
-        "technologies": ["DevOps", "Docker", "AWS", "CI/CD"],
+        "technologies": ["DevOps", "CI/CD", "AWS", "Docker", "Terraform", "Ansible", "Nginx", "GitHub Actions"],
         "links": [
             {
                 "text": "Code",
-                "url": "#",
+                "url": "https://github.com/AdhamGamal/Ecommerce-DevOps-Project",
                 "icon": "fab fa-github",
                 "external": true
             }
@@ -49,44 +31,18 @@
     },
     {
         "name": "Qiyas",
-        "description": "Android app for question-answering with timer, API integration, and score sharing features.",
+        "description": "Question-answering with timer, REST API integration, Ads, and score sharing features.",
         "icon": "fas fa-question-circle",
-        "technologies": ["Android", "REST API", "Kotlin"],
+        "technologies": ["Android", "Kotlin", "Retrofit", "Jetpack Compose", "Room Database"],
         "links": [
-            {
-                "text": "Code",
-                "url": "#",
-                "icon": "fab fa-github",
-                "external": true
-            }
         ]
     },
     {
         "name": "NBE Sheet",
-        "description": "Android app for customer data management with integrated statistics, charts, and Firebase storage.",
+        "description": "Customer data management with integrated statistics, charts, and Firebase storage.",
         "icon": "fas fa-table",
-        "technologies": ["Android", "Firebase", "Data Management"],
+        "technologies": ["Android", "Kotlin", "Firebase", "CRUD", "Data Analysis", "Data Visualization"],
         "links": [
-            {
-                "text": "Code",
-                "url": "#",
-                "icon": "fab fa-github",
-                "external": true
-            }
-        ]
-    },
-    {
-        "name": "COVID-19 Prediction",
-        "description": "ML model to predict COVID-19 case outcomes based on key factors and medical data.",
-        "icon": "fas fa-virus",
-        "technologies": ["Python", "ML", "Healthcare"],
-        "links": [
-            {
-                "text": "Code",
-                "url": "#",
-                "icon": "fab fa-github",
-                "external": true
-            }
         ]
     }
 ]

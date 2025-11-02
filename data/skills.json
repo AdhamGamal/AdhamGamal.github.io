@@ -7,12 +7,12 @@
     {
         "name": "AI & Data Science",
         "icon": "fas fa-brain",
-        "skills": ["Python", "Pandas", "NumPy", "Scikit-learn", "TensorFlow", "PyTorch", "Time Series Analysis", "Machine Learning", "Ensemble Learning"]
+        "skills": ["Python", "Machine Learning", "Ensemble Learning", "RAG", "LangChain", "VLM", "OCR", "Prompt Engineering", "YOLO", "Pandas", "NumPy", "Scikit-learn", "TensorFlow", "PyTorch", "Time Series Analysis and Forecasting"]
     },
     {
         "name": "DevOps & Cloud",
         "icon": "fas fa-cloud",
-        "skills": ["Docker", "Kubernetes", "Ansible", "Terraform", "Jenkins", "GitHub Actions", "AWS", "Azure", "GCP", "Linux"]
+        "skills": ["Docker", "Ansible", "Terraform", "Jenkins", "GitHub Actions", "Linux", "Kubernetes", "AWS", "Azure", "GCP", "Nginx"]
     },
     {
         "name": "Databases & Tools",

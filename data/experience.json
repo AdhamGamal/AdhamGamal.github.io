@@ -1,6 +1,20 @@
 [
     {
-        "date": "Feb 2021 - Present",
+        "date": "Oct 2025 - Present",
+        "role": "AI Engineer",
+        "company": "LumerAI - Hybrid, Egypt",
+        "responsibilities": [
+            "Utilized and optimized advanced models for enhanced inference capabilities.",
+            "Applied effective techniques in prompt engineering and data preparation to improve model performance.",
+            "Engineered and deployed innovative AI solutions within a specific domain.",
+            "Troubleshot and resolved issues in existing AI systems.",
+            "Ensured scalability and maintainability through clean and robust software design.",
+            "Developed core AI models, addressed system issues, and ensured robustness through validation and testing.",
+            "Collaborated with cross-functional teams to deliver impactful features through regular releases."
+        ]
+    },
+    {
+        "date": "Feb 2021 - Dec 2025",
         "role": "Android Developer",
         "company": "Freelance - Remote, Singapore",
         "responsibilities": [
@@ -12,17 +26,8 @@
         ]
     },
     {
-        "date": "Oct 2024 - Apr 2025",
-        "role": "DevOps Engineer",
-        "company": "Digital Egypt Pioneers Initiative (DEPI) - Egypt",
-        "responsibilities": [
-            "Career track course for DevOps Engineering at DEPI",
-            "Collaboration with YAT for technical skills and Harvest for soft skills"
-        ]
-    },
-    {
         "date": "Aug 2023 - Oct 2023",
-        "role": "Data Scientist",
+        "role": "Data Scientist Intern",
         "company": "Vodafone - Hybrid, Egypt",
         "responsibilities": [
             "Conducted time series forecasting and analysis for master's graduation project",
@@ -34,7 +39,7 @@
     },
     {
         "date": "Nov 2022 - Oct 2023",
-        "role": "Data Scientist",
+        "role": "Data Scientist Intern",
         "company": "Digital Egypt Builders Initiative (DEBI) - Egypt",
         "responsibilities": [
             "Developed rigorous understanding of fundamental concepts in Data Science and ML",

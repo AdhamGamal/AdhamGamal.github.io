@@ -19,12 +19,12 @@
     },
     {
         "name": "AWS Cloud Practitioner",
-        "issuer": "AWS",
+        "issuer": "Amazon Web Services (AWS)",
         "date": "May 2023",
         "icon": "fab fa-aws"
     },
     {
-        "name": "Data Scientist Associate",
+        "name": "Azure Data Scientist Associate",
         "issuer": "Microsoft Azure",
         "date": "Dec 2022",
         "icon": "fab fa-microsoft"
@@ -33,6 +33,19 @@
         "name": "HCIA AI V3",
         "issuer": "Huawei",
         "date": "Nov 2022",
-        "icon": "fas fa-robot"
+        "icon": "fas fa-brain"
+    },
+    {
+        "name": "AI Programming with Python",
+        "issuer": "Udacity",
+        "date": "Feb 2021",
+        "icon": "fas fa-brain"
+    },
+    {
+        "name": "Android Developer Nanodegree",
+        "issuer": "Udacity",
+        "date": "Jul 2017",
+        "icon": "fas fa-mobile-alt"
     }
+
 ]
